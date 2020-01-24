@@ -1,0 +1,112 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>reveal.js</title>
+
+		<link rel="stylesheet" href="css/reset.css">
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/black.css">
+
+		<!-- Theme used for syntax highlighting of code -->
+		<link rel="stylesheet" href="lib/css/monokai.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+
+
+				<section data-background-size="contain"data-background-image="./imgs/cover.jpg">
+				<p>Timothy Helps Out</p>
+				</section>
+
+
+				<section data-background-size="contain"data-background-image="./imgs/page1.jpg">
+				
+				<p> Timothy lived on an island. He had everything he could ever want or need. Life was good for Timothy, until one day when he saw something in the distance. It was someone holding a big net. This person wanted to catch Timothy!</p>
+				</section>
+
+
+				<section data-background-size="contain"data-background-image="./imgs/page2.jpg">
+				
+				<p> Timothy tried to run away and hide in a bush, but the person caught him and took him back to the boat. </p>
+				</section>
+
+
+				<section data-background-size="contain"data-background-image="./imgs/page3.jpg">
+				
+				<p> The person was getting ready to sail away but then saw that Timothy was crying and nervous. He felt guilty about trying to steal Timothy and let him free.</p>
+				</section>
+
+
+				<section data-background-size="contain"data-background-image="./imgs/page4.jpg">
+				
+				<p> Timothy was so happy to be free he cried tears of joy. Then, he laid down and took a nap.</p>
+				</section>
+
+
+
+				<section data-background-size="contain"data-background-image="./imgs/page5.jpg">
+				
+				<p> The man sailed back home with a new love for nature. </p>
+				</section>
+
+
+
+				<section data-background-size="contain"data-background-image="./imgs/page6.jpg">
+				
+				<p> He realized that he wanted others to love nature as much as he did, so he decided to teach kids about respecting nature and being kind to animals. </p>
+				</section>
+
+
+
+				<section data-background-size="contain"data-background-image="./imgs/page7.jpg">
+				
+				<p> A few years later he went back to the island to visit his old friend Timothy who had changed his life. 
+					<br>
+					<br>
+					<br>
+					The End.
+				</p>
+				</section>
+
+
+
+				
+
+
+
+
+
+			</div>
+		</div>
+
+		<script src="js/reveal.js"></script>
+
+		<script>
+			// More info about config & dependencies:
+			// - https://github.com/hakimel/reveal.js#configuration
+			// - https://github.com/hakimel/reveal.js#dependencies
+			Reveal.initialize({
+				hash: true,
+				dependencies: [
+					{ src: 'plugin/markdown/marked.js' },
+					{ src: 'plugin/markdown/markdown.js' },
+					{ src: 'plugin/highlight/highlight.js' },
+					{ src: 'plugin/notes/notes.js', async: true }
+				]
+			});
+		</script>
+	</body>
+</html>
